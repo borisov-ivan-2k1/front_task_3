@@ -1,0 +1,12 @@
+.Header {
+  height: 80px;
+  background-color: #eb144c;
+  display: flex;
+  align-items: center;
+}
+
+.Header-Text {
+  margin-left: 24px;
+  font-size: 35px;
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+.Actions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Action {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6px;
+  border: 1px solid #999;
+  margin-top: 24px;
+  background-color: #fff;
+  justify-content: space-between;
+  color: #000;
+  text-decoration: none;
+}
+
+.Action img {
+  width: 350px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.Action-Title {
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  color: #000;
+}
