@@ -6,9 +6,6 @@ import './Actions.css';
 
 const ActionsPresenter = ({actions}) => {
 
-  console.log(actions);
-  
-
   return (
     <div className='Actions'>
       {actions.map(action => (

@@ -3,13 +3,11 @@ import { withRouter } from 'react-router-dom';
 import './Header.css';
 import { connect } from 'react-redux'
 
-const HeaderPresenter = ({
-  
-}, props) => {
+const HeaderPresenter = (props) => {
   let text = 'Что нужно сделать?'
-  // console.log(match.params.action);
-  // if (match.params.action) text = 'В какой комнате?'
-  console.log(props);
+ 
+  if (props.location.pathname.length > 1) text = 'В какой комнате?'
+  
 
   return (
     <div className='Header'>
